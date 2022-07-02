@@ -1,0 +1,82 @@
+.class{
+  
+    font-weight: 100;
+    block-size: auto;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   overflow: hidden;
+  background-image: url(gram/sunrise.jpg);
+   background-position: center;
+   }
+   .logo img{
+       width: 100px;
+       margin: 10px;
+   }
+   .main{
+       width:80%;
+       align-items: center;
+       display: flex;
+       position: relative;
+       margin:20;
+
+   }
+   .main ul li{
+       list-style: none;
+       display: inline-block;
+       margin:0 15px;
+   }
+   .main ul li a:hover{
+       color: brown;
+       font-size: 15px;
+       background-color: green;
+       text-decoration: none;
+      
+       
+   }
+   .class h1,h2{
+       color: seagreen;
+   }
+   
+   #home{
+       
+       width: 50%;
+       justify-content: left;
+   }
+   #home p{
+    height:40%;
+    width: 50%;
+
+   }
+   #home h1{
+       color: brown;
+       font-size: 30px;
+   }
+   #home img{
+       height:150px;
+       width:140px;
+   }
+   .right-col{
+       margin:6%;
+   }
+   .right-col h1{
+       align-items: center;
+      color: blueviolet;
+   }
+   .right-col p{
+    align-items: center;
+       height:40%;
+       width: 50%;
+   }
+   .container h1{
+       color:purple;
+   }
+   .container{
+       background-image: url(gram/laptop.jpg);
+   }
+   .some{
+       background-image: url(gram/ocean.jpg);
+   }
+   .micro{
+       background-color:plum;
+   }
